@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'josefin';
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2833;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #1f2833 20%, #1f2833 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #1f2833 20%, #1f2833 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#45a29e 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #45a29e 0.8px, #1f2833 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+}
+.profile-card {
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.header img {
+    width: 100px;
+}
+/* @media only screen and (max-width:576px) {
+    .profile-card {
+        width: 90%;
+    }
+}
+@media only screen and (min-width:577px) {
+    .profile-card {
+        width: 45%;
+    }
+} */
+@font-face {
+    font-family: 'josefin';
+    src: url(../fonts/JosefinSans-Medium.ttf);
+}
